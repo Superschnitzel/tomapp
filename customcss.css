@@ -1,0 +1,27 @@
+h1 {
+	color: red;
+}
+
+body {
+	text-align: center;
+	background: black;
+	color: white;
+	font-family: helvetica;
+	background-size: auto;
+	background-position: center;
+	background: url("background.png");
+}
+
+p {
+	font-size: 22px;
+}
+
+input {
+	border: 0;
+    font-size: 18px;
+    padding: 10px;
+}
+input[type="submit"] {
+    background: red;
+    color: white;
+}
