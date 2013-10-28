@@ -1,9 +1,20 @@
+<!DOCTYPE HTML>
 <html>
-	<header>
+	<head>
 		<title>Toms Testapp</title>
-	</header>
+		
+		
+	</head>
 	<body>
-		<h1> Newsflash </h1>
-		<p> Flo ist ein faggot </p>
+		
+		<script type="text/javascript">
+
+			var now = new Date();
+			var day = now.getDate();
+			var month = now.getMonth() + 1;
+			var year = now.getYear() + 1900;
+			document.write("<h2> Hallo <\/h2>");
+			document.write("Heute ist der " + day + "." + month + "." + year);
+		</script>
 	</body>
 </html>
